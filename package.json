@@ -1,0 +1,24 @@
+{
+  "name": "js-course",
+  "version": "1.0.0",
+  "description": "TDD course library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipegorges/js-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Filipe Gorges Reuwsaat <lipirr@hotmail.com> (https://github.com/filipegorges)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipegorges/js-course/issues"
+  },
+  "homepage": "https://github.com/filipegorges/js-course#readme"
+}
