@@ -6,7 +6,7 @@
 
 Udemy course: https://www.udemy.com/js-com-tdd-na-pratica/
 
-This player makes use of the [spotify-wrapper](https://github.com/filipegorges/spotify-wrapper) library and provides UI interactions for finding albums, discovering tracks and previewing them.
+This player makes use of the [reuwsaat spotify-wrapper](https://github.com/filipegorges/spotify-wrapper) library and provides UI interactions for finding albums, discovering tracks and previewing them.
 
 ## Browser Support
 
@@ -76,15 +76,11 @@ this command will automatically be executed before pushing commits to origin, al
 
 * [Babel](https://babeljs.io/) - Javascript compiler
 * [NPM](https://www.npmjs.com/) - Package manager
-* [Reuwsaat Spotify Wrapper](https://www.npmjs.com/package/reuwsaat-spotify-wrapper) - Spotify Wrapper lib
+* [Reuwsaat Spotify Wrapper](https://www.npmjs.com/package/reuwsaat-spotify-wrapper) - Reuwsaat Spotify Wrapper lib
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+Please read [CONTRIBUTING.md](https://github.com/filipegorges/spotify-wrapper-player/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
@@ -92,7 +88,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 |:---------------------:|
 |  [Filipe Gorges Reuwsaat](https://github.com/filipegorges/)   |
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/filipegorges/spotify-wrapper-player/graphs/contributors) who participated in this project.
 
 ## License
 
