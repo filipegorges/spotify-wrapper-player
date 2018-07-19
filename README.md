@@ -4,7 +4,7 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/filipegorges/spotify-wrapper-player/badge.svg?branch=master)](https://coveralls.io/github/filipegorges/spotify-wrapper-player?branch=master)
 
-Udemy course: https://www.udemy.com/js-com-tdd-na-pratica/
+Based on Udemy course: https://www.udemy.com/js-com-tdd-na-pratica/
 
 This player makes use of the [reuwsaat spotify-wrapper](https://github.com/filipegorges/spotify-wrapper) library and provides UI interactions for finding albums, discovering tracks and previewing them.
 
