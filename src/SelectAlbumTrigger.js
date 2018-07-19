@@ -13,8 +13,9 @@ function makeRequest(albumId) {
 }
 
 export default function selectAlbumTrigger() {
-  listAlbums.addEventListener('click', (e) => { 
+  listAlbums.addEventListener('click', (e) => {
     const target = e.target;
     makeRequest(target.getAttribute('data-album-id'));
   });
-};
+}
+

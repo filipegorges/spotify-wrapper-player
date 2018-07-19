@@ -5,7 +5,7 @@ export default function PlaylistTrigger() {
   albumTracks.addEventListener('click', (e) => {
     const target = e.target.parentNode;
 
-    if(audioObject) {
+    if (audioObject) {
       audioObject.pause();
     }
 
@@ -13,9 +13,9 @@ export default function PlaylistTrigger() {
     audioObject.play();
     target.classList.add('active');
 
-    audioObject.addEventListener('pause', () => { 
+    audioObject.addEventListener('pause', () => {
       audioObject.pause();
-      target.classList.remove('active')
+      target.classList.remove('active');
     });
   });
 }

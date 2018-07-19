@@ -6,9 +6,9 @@ const searchForm = document.getElementById('search-form');
 const albumList = document.getElementById('album-list');
 
 export default function searchEnterTrigger() {
-  searchForm.addEventListener('submit', (e) => { 
+  searchForm.addEventListener('submit', (e) => {
     e.preventDefault();
     spotify.search.albums(searchInput.value)
       .then(data => renderAlbums(data.albums.items, albumList));
   });
-};
+}
