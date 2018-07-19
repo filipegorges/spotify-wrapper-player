@@ -1,69 +1,69 @@
-# js-course
+# Spotify Wrapper Player
 Udemy course: https://www.udemy.com/js-com-tdd-na-pratica/
 
-# Project Title
-
-One Paragraph of project description goes here
+This player makes use of the [spotify-wrapper](https://github.com/filipegorges/spotify-wrapper) library and provides UI interactions for finding albums, discovering tracks and previewing them.
 
 ## Getting Started
+Make sure the port ```8080``` is free before running the application.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Download or clone the project, access the project folder through a terminal and then run:
+
+```
+npm run start
+```
+to get the project running on ```localhost:8080```.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+In order to run this project locally, you'll need ```node``` and ```npm``` installed:
 
 ```
-Give examples
+# For Debian-based distributions:
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm
+
+# For RHEL-based distributions:
+sudo dnf update
+sudo dnf install nodejs
+sudo dnf install npm
+
+# For Windows/macOS:
+https://nodejs.org/en/download/
 ```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+To run the tests once:
 
 ```
-Give an example
+npm run test
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
+To keep running the tests, watching for file changes (TDD-style):
 ```
-Give an example
+npm rum test:tdd
 ```
 
-## Deployment
+To check test coverage:
+```
+npm run test:coverage
+```
 
-Add additional notes about how to deploy this on a live system
+### Coding style tests
+
+In order to maintain the coding style ESlint is part of the project and can be activated manually by running:
+
+```
+npm run lint
+```
+this command will automatically be executed before pushing commits to origin, alongside the ```test:coverage``` and will lock the pushing process should the code not be valid according to the defined coding style.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Babel](https://babeljs.io/) - Javascript compiler
+* [NPM](https://www.npmjs.com/) - Package manager
+* [Reuwsaat Spotify Wrapper](https://www.npmjs.com/package/reuwsaat-spotify-wrapper) - Spotify Wrapper lib
 
 ## Contributing
 
@@ -71,20 +71,14 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Filipe Gorges Reuwsaat** - [GitHub](https://github.com/filipegorges)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
