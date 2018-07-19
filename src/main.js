@@ -1,10 +1,7 @@
-const a = 3;
-const b = 2;
+import searchEnterTrigger from './SearchTrigger';
+import selectAlbumTrigger from './SelectAlbumTrigger';
+import playlistTrigger from './PlaylistTrigger';
 
-const c = 'jladjasdjaskdasjdsjdhasdlsakkndçasndsad';
-
-function sum() {
-  return a + b + c;
-}
-
-sum();
+searchEnterTrigger();
+selectAlbumTrigger();
+playlistTrigger();
