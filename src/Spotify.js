@@ -1,7 +1,7 @@
 import SpotifyWrapper from 'reuwsaat-spotify-wrapper';
 
 const spotify = new SpotifyWrapper({
-  token: 'BQC8aB_6lWCuBhcR4I7rfre8ok-P8JdTaAnzn6trv-Z4hXs8RCPh6eRa1pkBpKiyfn2cw4QQZ6x-1PRWGfWUDenNIk7w8VGhL0NxCT-_NGJrXUupxUer7S2YcRQkLDiugAzfC-MGsFRmTDZ9',
+  token: 'BQCbVz0ngmdh-APIILWtD5E0bdC7efUFNdhMh5C_8vs7FjsT1cnOa3VmklvrcWtG7mchzT-eZkE5RPW-gfB_vA1gfrdUSo50tsfnr8_Wo1GAEYFQkcRr66o89lUfWc4dhkHW243vHhVj9qey',
 });
 
 export default spotify;

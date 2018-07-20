@@ -4,19 +4,23 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/filipegorges/spotify-wrapper-player/badge.svg?branch=master)](https://coveralls.io/github/filipegorges/spotify-wrapper-player?branch=master)
 
+![Player Demo](img/player_demo.gif)
+
 Udemy course: https://www.udemy.com/js-com-tdd-na-pratica/
 
 This player makes use of the [spotify-wrapper](https://github.com/filipegorges/spotify-wrapper) library and provides UI interactions for finding albums, discovering tracks and previewing them.
 
 ## Getting Started
-Make sure the port ```8080``` is free before running the application.
 
-Download or clone the project, access the project folder through a terminal and then run:
+Access [Spotify for Developers](https://developer.spotify.com/) and get a new token (lasts for an hour):
 
-```
-npm run start
-```
-to get the project running on ```localhost:8080```.
+![Getting a token](img/getting_token.gif)
+
+Download or clone the project, access it, add your token to the SpotifyWrapper and start the server:
+
+![Adding token](img/adding_token.gif)
+
+**Note**: make sure the port ```8080``` is free before running the application.
 
 ### Prerequisites
 
@@ -36,6 +40,7 @@ sudo dnf install npm
 # For Windows/macOS:
 https://nodejs.org/en/download/
 ```
+You'll also need an account at [Spotify for Developers](https://developer.spotify.com/)
 
 ## Running the tests
 
