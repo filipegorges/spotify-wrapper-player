@@ -8,7 +8,15 @@
 
 Udemy course: https://www.udemy.com/js-com-tdd-na-pratica/
 
-This player makes use of the [spotify-wrapper](https://github.com/filipegorges/spotify-wrapper) library and provides UI interactions for finding albums, discovering tracks and previewing them.
+This player makes use of the [reuwsaat spotify-wrapper](https://github.com/filipegorges/spotify-wrapper) library and provides UI interactions for finding albums, discovering tracks and previewing them.
+
+## Browser Support
+
+This project relies on [reuwsaat-spotify-wrapper](https://www.npmjs.com/package/reuwsaat-spotify-wrapper) which is supported in the following browsers:
+
+![Chrome](https://cloud.githubusercontent.com/assets/398893/3528328/23bc7bc4-078e-11e4-8752-ba2809bf5cce.png) | ![Firefox](https://cloud.githubusercontent.com/assets/398893/3528329/26283ab0-078e-11e4-84d4-db2cf1009953.png) | ![Opera](https://cloud.githubusercontent.com/assets/398893/3528330/27ec9fa8-078e-11e4-95cb-709fd11dac16.png) | ![Safari](https://cloud.githubusercontent.com/assets/398893/3528331/29df8618-078e-11e4-8e3e-ed8ac738693f.png) | ![IE](https://cloud.githubusercontent.com/assets/398893/3528325/20373e76-078e-11e4-8e3a-1cb86cf506f0.png) |
+--- | --- | --- | --- | --- |
+39+ ✔ | 42+ ✔ | 29+ ✔ | 10.1+ ✔ | Nope ✘ |
 
 ## Getting Started
 
@@ -73,21 +81,19 @@ this command will automatically be executed before pushing commits to origin, al
 
 * [Babel](https://babeljs.io/) - Javascript compiler
 * [NPM](https://www.npmjs.com/) - Package manager
-* [Reuwsaat Spotify Wrapper](https://www.npmjs.com/package/reuwsaat-spotify-wrapper) - Spotify Wrapper lib
+* [Reuwsaat Spotify Wrapper](https://www.npmjs.com/package/reuwsaat-spotify-wrapper) - Reuwsaat Spotify Wrapper lib
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
-* **Filipe Gorges Reuwsaat** - [GitHub](https://github.com/filipegorges)
+| ![Filipe Gorges Reuwsaat](https://avatars3.githubusercontent.com/u/7244233?s=150&v=3)|
+|:---------------------:|
+|  [Filipe Gorges Reuwsaat](https://github.com/filipegorges/)   |
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/filipegorges/spotify-wrapper-player/graphs/contributors) who participated in this project.
 
 ## License
 
